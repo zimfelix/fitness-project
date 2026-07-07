@@ -146,5 +146,3 @@ class WorkoutStats:
                 worst_workout = workout
 
         return worst_workout
-
-    #
