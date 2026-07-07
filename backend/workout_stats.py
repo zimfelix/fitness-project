@@ -22,7 +22,7 @@ class WorkoutStats:
         total = 0
 
         for workout in self.get_workouts():
-            total += self.tracker.get_total_reps()
+            total += workout.get_total_reps()
 
         return total
 
