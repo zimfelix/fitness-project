@@ -4,7 +4,7 @@ from backend import workout
 
 class WorkoutStats:
 
-    def __init__(self, tracker, reps):
+    def __init__(self, tracker):
         self.tracker = tracker
 
     ## Helpers
